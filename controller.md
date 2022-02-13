@@ -1,4 +1,6 @@
-# ESP32-D0WDQ6 
+# ผลการสำรวจ บอร์ด microcontroller
+
+## ESP32-D0WDQ6 
 
 ราคา $2.40
 
@@ -18,7 +20,7 @@
        
        Bluetooth: v4.2 BR/EDR and Bluetooth Low Energy (BLE)
  
- # STM32
+ ## STM32
  
  Model : STM32L041F6P7
  
@@ -34,7 +36,7 @@
  
  พอร์ท :  20Pins
  
- # AVR
+ ## AVR
    Model : AT32UC3L0256-AUT
    ราคา :362.73 THB
    
@@ -47,7 +49,7 @@
    
    พอร์ท : 48Pins
    
-   # MSP
+   ## MSP
    
    Model : MSP430FR2100IPW16
     
@@ -63,7 +65,7 @@
    
    พอร์ท : 16Pins
    
-   # RISC-V
+   ## RISC-V
    
    Model : ATMEGA48P-20AU
    
