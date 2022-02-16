@@ -12,12 +12,13 @@ void setup()
 void loop()
 {
 	cnt++;
-	Serial.printf("PATTANI :%d\n",cnt);	
-	int s = cnt % 5 + 1;	
-	int d = s * 1000;	
-	delay(d);	
+	Serial.printf("A :%d\n",cnt);		
+	delay(300);	
 }
 ~~~
+>เริ่มต้น โปรแกรมจะต้องกำหนดความเร็วเริ่มต้นให้ตรงกัน
+>โปรแกรมจะวนลูปการแสดงผลไปเรื่อยๆ โดย cnt จะเพิ่มขึ้นทีละ1 เป็นจำนวนรอบ
+
 # ex2 scan หา wi-fi
 ~~~
 #include <Arduino.h>
