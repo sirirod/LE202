@@ -1,6 +1,6 @@
 # อธิบายโปรแกรม
 ## ex1 serial- monitor แสดงผลการรันโปรแกรม
-
+~~~
 int cnt = 0;
 
 void setup()
@@ -25,5 +25,5 @@ void loop()
 	delay(d);
 	
 }
-
+~~~
 # ex2 
