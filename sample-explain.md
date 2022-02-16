@@ -1,6 +1,8 @@
 # อธิบายโปรแกรม
 ## ex1 serial- monitor แสดงผลการรันโปรแกรม
 ~~~
+#include <Arduino.h>
+
 int cnt = 0;
 
 void setup()
