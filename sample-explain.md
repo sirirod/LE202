@@ -1,5 +1,5 @@
 # อธิบายโปรแกรม
-## ex1 serial- monitor แสดงผลการรันโปรแกรม
+## ex1 serial- monitor เขียนโปรแกรมลงบน microcontroller
 ~~~
 #include <Arduino.h>
 int cnt = 0;
