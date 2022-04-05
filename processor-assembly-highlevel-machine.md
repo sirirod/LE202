@@ -11,6 +11,8 @@ int square(int num) {
 
 ## โปรแซสเซสเซอร์ (processor,microcontroller):RISC-V rv32gc clang(trunk)
 
+## ภาษาแอสเซ็มบลี้ (low level language, assembly)
+
 ~~~
         addi    sp, sp, -16
         sw      ra, 12(sp)                      # 4-byte Folded Spill
