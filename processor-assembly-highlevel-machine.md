@@ -1,29 +1,26 @@
-## ภาษาชั้นสูง (high level language):C
+## ภาษาระดับสูง (high level language)
+
+ภาษาระดับสูงเป็นภาษาที่สร้างขึ้นเพื่อช่วยอำนวยความสะดวกในการเขียนโปรแกรมกล่าวคือลักษณะของคำสั่งจะประกอบด้วยคำต่าง ๆ ในภาษาอังกฤษ ซึ่งผู้อ่านสามารถเข้าใจความหมายได้ทันที 
+
+ผู้เขียนโปรแกรมจึงเขียนโปรแกรมด้วยภาษาระดับสูงได้ง่ายกว่าเขียนด้วยภาษาแอสเซมบลีหรือภาษาเครื่อง ภาษาระดับสูงมีมากมายหลายภาษา เช่น
 ~~~
-
-int square(int num) {
-
-    return num * num;
-    
-}
+ภาษาฟอร์แทรน (FORTRAN)
+ภาษาโคบอล (COBOL)
+ภาษาปาสคาล (Pascal)
+ภาษาเบสิก(BASIC) 
+ภาษาวิชวลเบสิก (Visual Basic) 
+ภาษาซี (C) 
+ภาษาจาวา (Java)
 
 ~~~
+## โปรแซสเซสเซอร์ (processor,microcontroller)
 
-## โปรแซสเซสเซอร์ (processor,microcontroller):RISC-V rv32gc clang(trunk)
+RISC-V rv32gc clang(trunk)
 
 ## ภาษาแอสเซ็มบลี้ (low level language, assembly)
 
 ~~~
-        addi    sp, sp, -16
-        sw      ra, 12(sp)                      # 4-byte Folded Spill
-        sw      s0, 8(sp)                       # 4-byte Folded Spill
-        addi    s0, sp, 16
-        sw      a0, -12(s0)
-        lw      a0, -12(s0)
-        mul     a0, a0, a0
-        lw      ra, 12(sp)                      # 4-byte Folded Reload
-        lw      s0, 8(sp)                       # 4-byte Folded Reload
-        addi    sp, sp, 16
-        ret
+      
 ~~~
 
+## ภาษาเครื่อง (machine language)
