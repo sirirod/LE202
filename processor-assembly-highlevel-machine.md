@@ -49,7 +49,7 @@ int square(int num) {
 หรือ "หน่วยประมวลผล" (CPU) ของเครื่องคอมพิวเตอร์
 ~~~
 ตัวอย่างภาษา assembly ของ RISC-V rv32gc clang (trunk)
-~~~
+
  addi   sp, sp, -16        
         sw      ra, 12(sp)                      # 4-byte Folded Spill
         sw      s0, 8(sp)                       # 4-byte Folded Spill        
